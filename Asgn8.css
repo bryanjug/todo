@@ -1,0 +1,292 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('mountains.jpg');
+    background-size: 150% 150%;
+    width: 80%;
+    margin: auto;
+}
+
+header p {
+    color: white;
+    font-size: 120%;
+}
+
+header {
+    background-image: url('mountains.jpg');
+    background-size: 100% 100%;
+    padding-top: 30%;
+    padding-left: 5%;
+    font-size: 100%;
+    padding-bottom: 1%;
+    border-radius: 30px 30px 0px 0px;
+}
+
+#focus {
+    color: white;
+    text-align: center;
+}
+
+#container {
+    border-radius: 30px;
+    background-color: rgba(227,227,227,1);
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+}
+
+#todolist {
+    text-align: center;
+}
+#additem, #sortitems {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    background-color: #0007a4;
+    border: none;
+    border-radius: 30px; 
+}
+#additem {
+    margin-bottom: 2%;
+}
+#displayitems {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.listitem {
+    border-radius: 30px;
+    border: 1px gray solid;
+}
+
+@media (min-width: 517px) {
+    body {
+        width: 70%;
+    }
+    #focus {
+        font-size: 110%;
+    }
+    header p {
+        font-size: 130%;
+    }
+    #additem, #sortitems {
+        font-size: 110%;
+    }
+    .listitem {
+        font-size: 110%;
+    }
+    #displayitems {
+        font-size: 110%;
+    }
+}
+
+@media (min-width: 591px) {
+    body {
+        width: 60%;
+    }
+    #focus {
+        font-size: 120%;
+    }
+    header p {
+        font-size: 140%;
+    }
+    #additem, #sortitems {
+        font-size: 120%;
+    }
+    .listitem {
+        font-size: 120%;
+    }
+    #displayitems {
+        font-size: 120%;
+    }
+}
+
+@media (min-width: 689px) {
+    body {
+        width: 50%;
+    }
+    #focus {
+        font-size: 140%;
+    }
+    header p {
+        font-size: 160%;
+    }
+    #additem, #sortitems {
+        font-size: 140%;
+    }
+    .listitem {
+        font-size: 140%;
+    }
+    #displayitems {
+        font-size: 140%;
+    }
+}
+
+@media (min-width: 827px) {
+    #focus {
+        font-size: 150%;
+    }
+    header p {
+        font-size: 180%;
+    }
+    #additem, #sortitems {
+        font-size: 150%;
+    }
+    .listitem {
+        font-size: 150%;
+    }
+    #displayitems {
+        font-size: 150%;
+    }
+}
+
+@media (min-width: 940px) {
+    body {
+        width: 40%;
+    }
+    #focus {
+        font-size: 160%;
+    }
+    header p {
+        font-size: 200%;
+    }
+    #additem, #sortitems {
+        font-size: 160%;
+    }
+    .listitem {
+        font-size: 160%;
+    }
+    #displayitems {
+        font-size: 160%;
+    }
+}
+
+@media (min-width: 1034px) {
+    #focus {
+        font-size: 170%;
+    }
+    header p {
+        font-size: 220%;
+    }
+    #additem, #sortitems {
+        font-size: 170%;
+    }
+    .listitem {
+        font-size: 170%;
+    }
+    #displayitems {
+        font-size: 170%;
+    }
+}
+
+@media (min-width: 1149px) {
+    #focus {
+        font-size: 180%;
+    }
+    header p {
+        font-size: 240%;
+    }
+    #additem, #sortitems {
+        font-size: 180%;
+    }
+    .listitem {
+        font-size: 180%;
+    }
+    #displayitems {
+        font-size: 180%;
+    }
+}
+
+@media (min-width: 1149px) {
+    #focus {
+        font-size: 190%;
+    }
+    header p {
+        font-size: 260%;
+    }
+    #additem, #sortitems {
+        font-size: 190%;
+    }
+    .listitem {
+        font-size: 190%;
+    }
+    #displayitems {
+        font-size: 190%;
+    }
+}
+
+@media (min-width: 1293px) {
+    #focus {
+        font-size: 200%;
+    }
+    header p {
+        font-size: 280%;
+    }
+    #additem, #sortitems {
+        font-size: 200%;
+    }
+    .listitem {
+        font-size: 200%;
+    }
+    #displayitems {
+        font-size: 200%;
+    }
+}
+
+@media (min-width: 1379px) {
+    #focus {
+        font-size: 210%;
+    }
+    header p {
+        font-size: 300%;
+    }
+    #additem, #sortitems {
+        font-size: 210%;
+    }
+    .listitem {
+        font-size: 210%;
+    }
+    #displayitems {
+        font-size: 210%;
+    }
+}
+
+@media (min-width: 1551px) {
+    #focus {
+        font-size: 220%;
+    }
+    header p {
+        font-size: 320%;
+    }
+    #additem, #sortitems {
+        font-size: 220%;
+    }
+    .listitem {
+        font-size: 220%;
+    }
+    #displayitems {
+        font-size: 220%;
+    }
+}
+
+@media (min-width: 2068px) {
+    body {
+        width: 30%;
+    }
+    #focus {
+        font-size: 300%;
+    }
+    header p {
+        font-size: 350%;
+    }
+    #additem, #sortitems {
+        font-size: 300%;
+    }
+    .listitem {
+        font-size: 300%;
+    }
+    #displayitems {
+        font-size: 300%;
+    }
+}
